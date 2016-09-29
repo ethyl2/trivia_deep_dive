@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <title>Good Job Brain Fan Site</title>
+  <style>
+
+  html {
+    background-color: #FF6600;
+  }
+
+  .container {
+    background-color: #F5F4F4;
+  }
+
+  .header {
+    background-color: black;
+    color: #F5F4F4;
+  }
+  iframe {
+    width: 100%;
+    height: 166;
+    scrolling: no;
+    frameborder: no;
+  }
+
+  .image-source {
+    font-size: 0.75em;
+  }
+
+  h1 {
+    color: #FF6600;
+  }
+
+  .header a {
+    color: #F5F4F4;
+    border-bottom: 1px solid #FF6600;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: gray;
+  }
+
+  img {
+    margin: none;
+  }
+
+  hr {
+    border-color: black;
+  }
+
+  form {
+    border: 1px solid black;
+    text-align: center;
+    background-color: ivory;
+    padding: 0.5em;
+  }
+  </style>
+</head>
+
+<body class="container">
+
+  <div class="row">
+    <div class="col-md-12 text-center header">
+      <h1>A DEEP DIVE Into <a href="http://www.goodjobbrain.com/">Good Job Brain</a>
+       Podcast Episodes</h1>
+       <h3>I'm a huge fan of this highly entertaining podcast,<br> and each topic they
+         present sparks my interest to learn more and to experience these topics
+         visually.
+       </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3>Here is a breakdown of one of my favorite episodes:
+        #87 -- <em>"The Truth About Cats and Dogs"</em>.
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <iframe
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120926036&amp;color=ff6600&amp;show_artwork=false">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2">
+      <img class="img-responsive" src="images/GJB_podcast_200.png" alt="GJB logo">
+    </div>
+    <div class="col-md-10">
+      <h2>Beginning Alliterations</h2>
+      <h4>An episode would not be complete without an alliterative phrase about us
+        and about them.</h4>
+      <ul>
+        <li><q>Hello, zany zoo of zippy zealots!</q></li>
+        <li><p>They are our <q>scrappy scrambling but scrumptious scrupulous screwballs</q>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <hr>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Umm...Actually Segments</h2>
+      <h4>Here's where they make corrections from earlier episodes.</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 img-responsive">
+      <img src="images/TwentyThousand_150.jpg" alt="book cover for 20,000 Leagues Under the Sea">
+      <p class="image-source"><a href="https://www.goodreads.com/book/photo/33507.Twenty_Thousand_Leagues_Under_the_Sea"
+        target="_blank">image source</a></p>
+    </div>
+    <div class="col-md-4">
+      <h3><a href="https://www.goodreads.com/book/show/33507.Twenty_Thousand_Leagues_Under_the_Sea" target="_blank">
+      20,000 Leagues Under the Sea</a></h3>
+      <p>Not 10,000 Leagues, as was said in an earlier episode,
+        <a href="http://www.goodjobbrain.com/blog/2013/11/12/86-the-life-aquatic.html"
+        target="_blank">#86 The Life Aquatic</a>. Also, an interesting note
+        from that episode is that this "20,000 leagues" is not referring to a
+        straight path downwards, perpendicular to the ocean's surface, but rather a horizontal
+        journey, that happens to be under the sea. They recommend adding a comma
+        after "Leagues" to your library copy, to make that distinction clear.
+      </p>
+      <p>A league is about three miles, so the trip would be around 60,000 miles.
+        Compare that to the deepest part of the ocean, <a href="https://youtu.be/r17kLJxJcwM"
+        target="_blank">Challenger Deep</a>, in the Pacific's Mariana Trench,
+        which is 6.9 miles. 
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3>The Caspian Sea/Lake/Ocean</h3>
+      <p>Karen explains that the Caspian Sea is the largest lake, IF you consider
+        it a lake. It's regularly called a sea, historically because of its
+        saltiness. Since it is landlocked, it could
+        actually be considered a lake. However, since oceanic plates are involved,
+        it could be considered an ocean as well! Crazy.
+      </p>
+      <form id="caspian-vote">
+        I vote for:<br>
+        <input type="radio" name="caspian" value="Lake">Lake<br>
+        <input type="radio" name="caspian" value="Sea">Sea<br>
+        <input type="radio" name="caspian" value="Ocean">Ocean<br>
+        <button type="button" id="submit">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-2">
+      <img class="img-responsive" src="images/Caspian_Sea_256.jpg">
+      <p class="image-source">By Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC [Public domain],
+      <a href="https://commons.wikimedia.org/wiki/File%3ACaspian_Sea_from_orbit.jpg" target="_blank"
+      >via Wikimedia Commons</a></p>
+    </div>
+  </div>
+
+
+
+
+
+<script>
+
+  $("#submit").click(function() {
+        var userInput = $("input[name=caspian]:checked").val();
+        //alert(userInput);
+        $("#caspian-vote").append("<p>" + userInput + " is a good choice!</p>");
+  });
+</script>
+
+</body>
+
+</html>
